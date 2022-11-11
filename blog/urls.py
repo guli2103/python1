@@ -5,5 +5,6 @@ from core.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('video/', video)
+    path('video/', video),
+    path('ferrary/', ferrary),
 ]
