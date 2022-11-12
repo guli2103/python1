@@ -6,3 +6,6 @@ def video(request):
 
 def ferrary(request):
     return render(request, "index1.html")
+
+def cube(request):
+    return render(request,"cube.html")    
