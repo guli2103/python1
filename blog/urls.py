@@ -1,11 +1,10 @@
 
 from django.contrib import admin
-from django.urls import path
-from core.views import *
+from django.urls import path,include
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('video/', video),
-    path('ferrary/', ferrary),
-    path('cube/', cube)
+    path('cube/',include('cube.urls'))
+    
 ]
